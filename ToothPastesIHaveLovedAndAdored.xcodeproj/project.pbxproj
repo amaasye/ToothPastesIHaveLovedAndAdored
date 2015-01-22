@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		B0787E561A715F1A009BA0E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0787E551A715F1A009BA0E3 /* main.m */; };
 		B0787E591A715F1A009BA0E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0787E581A715F1A009BA0E3 /* AppDelegate.m */; };
-		B0787E5C1A715F1A009BA0E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0787E5B1A715F1A009BA0E3 /* ViewController.m */; };
+		B0787E5C1A715F1A009BA0E3 /* AdoredToothPastesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0787E5B1A715F1A009BA0E3 /* AdoredToothPastesViewController.m */; };
 		B0787E5F1A715F1A009BA0E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0787E5D1A715F1A009BA0E3 /* Main.storyboard */; };
 		B0787E611A715F1A009BA0E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0787E601A715F1A009BA0E3 /* Images.xcassets */; };
 		B0787E641A715F1A009BA0E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0787E621A715F1A009BA0E3 /* LaunchScreen.xib */; };
 		B0787E701A715F1A009BA0E3 /* ToothPastesIHaveLovedAndAdoredTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0787E6F1A715F1A009BA0E3 /* ToothPastesIHaveLovedAndAdoredTests.m */; };
+		B0787E7B1A716654009BA0E3 /* ToothPastesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0787E7A1A716654009BA0E3 /* ToothPastesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		B0787E551A715F1A009BA0E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0787E571A715F1A009BA0E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0787E581A715F1A009BA0E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0787E5A1A715F1A009BA0E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0787E5B1A715F1A009BA0E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0787E5A1A715F1A009BA0E3 /* AdoredToothPastesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdoredToothPastesViewController.h; sourceTree = "<group>"; };
+		B0787E5B1A715F1A009BA0E3 /* AdoredToothPastesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdoredToothPastesViewController.m; sourceTree = "<group>"; };
 		B0787E5E1A715F1A009BA0E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0787E601A715F1A009BA0E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B0787E631A715F1A009BA0E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B0787E691A715F1A009BA0E3 /* ToothPastesIHaveLovedAndAdoredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToothPastesIHaveLovedAndAdoredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0787E6E1A715F1A009BA0E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0787E6F1A715F1A009BA0E3 /* ToothPastesIHaveLovedAndAdoredTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToothPastesIHaveLovedAndAdoredTests.m; sourceTree = "<group>"; };
+		B0787E791A716654009BA0E3 /* ToothPastesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToothPastesTableViewController.h; sourceTree = "<group>"; };
+		B0787E7A1A716654009BA0E3 /* ToothPastesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToothPastesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +86,11 @@
 			children = (
 				B0787E571A715F1A009BA0E3 /* AppDelegate.h */,
 				B0787E581A715F1A009BA0E3 /* AppDelegate.m */,
-				B0787E5A1A715F1A009BA0E3 /* ViewController.h */,
-				B0787E5B1A715F1A009BA0E3 /* ViewController.m */,
+				B0787E5A1A715F1A009BA0E3 /* AdoredToothPastesViewController.h */,
+				B0787E5B1A715F1A009BA0E3 /* AdoredToothPastesViewController.m */,
 				B0787E5D1A715F1A009BA0E3 /* Main.storyboard */,
+				B0787E791A716654009BA0E3 /* ToothPastesTableViewController.h */,
+				B0787E7A1A716654009BA0E3 /* ToothPastesTableViewController.m */,
 				B0787E601A715F1A009BA0E3 /* Images.xcassets */,
 				B0787E621A715F1A009BA0E3 /* LaunchScreen.xib */,
 				B0787E531A715F1A009BA0E3 /* Supporting Files */,
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0787E5C1A715F1A009BA0E3 /* ViewController.m in Sources */,
+				B0787E7B1A716654009BA0E3 /* ToothPastesTableViewController.m in Sources */,
+				B0787E5C1A715F1A009BA0E3 /* AdoredToothPastesViewController.m in Sources */,
 				B0787E591A715F1A009BA0E3 /* AppDelegate.m in Sources */,
 				B0787E561A715F1A009BA0E3 /* main.m in Sources */,
 			);
